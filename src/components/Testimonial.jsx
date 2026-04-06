@@ -1,3 +1,5 @@
+import customerImage from '../assets/customer.png'
+
 function Testimonial() {
   return (
     <div style={{
@@ -8,7 +10,7 @@ function Testimonial() {
       maxWidth: '400px'
     }}>
       <img
-        src="https://via.placeholder.com/80"
+        src={customerImage}
         alt="Customer"
         style={{ borderRadius: '50%' }}
       />

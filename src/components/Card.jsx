@@ -1,3 +1,5 @@
+import productImage from '../assets/product.png'
+
 function Card() {
   return (
     <div style={{
@@ -8,7 +10,7 @@ function Card() {
       marginTop: '20px'
     }}>
       <img
-        src="https://via.placeholder.com/250x150"
+        src={productImage}
         alt="Product"
         style={{ width: '100%', borderRadius: '10px' }}
       />
